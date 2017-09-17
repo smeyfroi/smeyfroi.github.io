@@ -1,10 +1,10 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 // Headers
 
 $header-heading-color: #4c5c70 !default;
 $header-bg-color: #b9e085 !default;
 $header-bg-color-secondary: #a4d4d5 !default;
+
+@import "{{ site.theme }}";
