@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+
+title: Thinking IT By Steve Meyfroidt
+description: Articles about the Cloud, Sysadmin and Devops
+url: http://thinkingitby.meyfroidt.com/
+author: stevemeyfroidt
+google_analytics: UA-380529-4
+
+plugins:
+  - jekyll-seo-tag

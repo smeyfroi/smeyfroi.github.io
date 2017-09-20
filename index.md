@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Head in the Clouds
+published: true
 ---
 
 {% for post in site.latest_posts %}
