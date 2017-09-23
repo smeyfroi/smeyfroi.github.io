@@ -1,10 +1,88 @@
-theme: jekyll-theme-cayman
-
-title: Thinking IT By Steve Meyfroidt
-description: Articles about the Cloud, Sysadmin and Devops
+title: Thinking IT
+description: A Programming and Devops Blog By Steve Meyfroidt
 url: http://thinkingitby.meyfroidt.com/
-author: stevemeyfroidt
-google_analytics: UA-380529-4
 
-plugins:
-  - jekyll-seo-tag
+disqus_shortname: smeyfro-github-io
+reading_time: true
+words_per_minute: 200
+
+# Owner/author information
+owner:
+  name: Steve Meyfroidt
+  avatar: avatar.jpg
+  bio: "Pragmatic developer turned sysadmin. An agile cloud-like being."
+  email: steve@meyfroidt.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  facebook:
+  github: smeyfroi
+  stackexchange:
+  linkedin: steve-meyfroidt-48a400
+  instagram:
+  flickr:
+  tumblr:
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:
+
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-380529-4
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London
+future: false
+highlighter: rouge
+markdown: kramdown
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:categories/:year/:month/:day/:title
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+include: 
+  - .htaccess
+exclude: 
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp

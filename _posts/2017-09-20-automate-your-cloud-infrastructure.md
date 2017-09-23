@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "5 Tips to Automate Your Cloud Infrastructure"
-date:  2017-09-19 12:00:00 +0000
+date:  2017-09-20 00:00:00 +0000
 tags: cloud infrastructure automation aws
 published: true
 ---
+![](/assets/images/2017-09-20-header.png)
+
 This is the one about how "moving to the cloud" isn't
 the same as moving your infrastructure into someone
 else's data-centre.

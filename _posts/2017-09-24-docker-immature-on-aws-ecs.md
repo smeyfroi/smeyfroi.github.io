@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Docker is an Immature Technology on AWS ECS"
-date:  2017-09-24 12:00:00 +0000
+date:  2017-09-24 00:00:00 +0000
 tags: cloud docker container aws
 published: false
 ---
