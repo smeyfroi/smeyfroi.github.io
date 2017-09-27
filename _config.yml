@@ -1,8 +1,10 @@
+repository: smeyfroi/smeyfroi.github.io
+
 title: Thinking IT
 description: A Programming and Devops Blog By Steve Meyfroidt
 url: http://thinkingitby.meyfroidt.com
 
-disqus_shortname: smeyfro-github-io
+disqus_shortname: smeyfroi-github-io
 reading_time: true
 words_per_minute: 200
 
@@ -39,10 +41,14 @@ future: false
 highlighter: rouge
 markdown: kramdown
 gems:
+  - jekyll-github-metadata
+  - jekyll-mentions
   - jekyll-sitemap
+  - jemoji
   - jekyll-paginate
-  - jekyll-gist
   - jekyll-feed
+#- jekyll-gist
+#- jekyll-redirect-from
 sass:
   sass_dir: _sass
   style: compressed
