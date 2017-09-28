@@ -2,11 +2,11 @@
 layout: post
 title: "5 Tips to Automate Your Cloud Infrastructure"
 date:  2017-09-20 00:00:00 +0000
-tags: [cloud, infrastructure, automation, aws]
+tags: [cloud, infrastructure, automation, aws, chef]
 image:
   feature: posts/2017-09-20.jpg
-  credit: stocksnap.io
-  creditlink: https://stocksnap.io/license
+  credit: New Old Stock
+  creditlink: http://nos.twnsnd.co/rights-and-usage
 published: true
 ---
 This is the one about how "moving to the cloud" isn't
