@@ -51,7 +51,7 @@ still intact without having to remember how this one was built.
 
 Just say no.
 
-The real win that the public cloud platforms bring is the tooling
+Because the real win that the public cloud platforms bring is the tooling
 to break the cycle of manual configuration management. Projects can be
 deployable by running one script that creates and provisions
 a solution via the cloud provider's API to create infrastructure
@@ -61,8 +61,9 @@ a tagged version of the software. Quick, repeatable and safely
 under version control.
 
 Let's summarise with five summary tips that follow from adopting the public cloud:
-1. automate your infrastructure (automation is good, do things once centrally)
+1. automate your infrastructure (automation is good, do things once centrally).
+See [Chef](https://chef.io/), [Puppet](https://puppet.com), [Ansible](https://www.ansible.com/), [Cloudformation](https://aws.amazon.com/cloudformation/)
 1. put your infrastructure under version control (software without version control is unthinkable; same for the infrastructure supporting the software solutions)
 1. make deployments repeatable (painless temporary environments)
-1. make deployments rapid (no waiting for delivery teams)
+1. make deployments rapid and frictionless (keep delivery teams moving)
 1. automate compliance testing (banish 'snowflake' systems; more on this later)
