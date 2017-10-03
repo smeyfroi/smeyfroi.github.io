@@ -2,7 +2,7 @@
 layout: post
 title: "Docker is an Immature Technology on AWS ECS"
 date:  2017-09-24 00:00:00 +0000
-tags: cloud docker container aws
+tags: [cloud, docker, container, aws]
 image:
   feature: posts/2017-09-24.jpg
   credit: New Old Stock

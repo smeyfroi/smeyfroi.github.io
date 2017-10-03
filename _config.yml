@@ -47,8 +47,8 @@ gems:
   - jemoji
   - jekyll-paginate
   - jekyll-feed
-#- jekyll-gist
-#- jekyll-redirect-from
+  - jekyll-gist
+  - jekyll-redirect-from
 sass:
   sass_dir: _sass
   style: compressed
